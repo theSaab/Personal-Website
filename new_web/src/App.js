@@ -1,30 +1,39 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import './App.css'
-// Components
-import NavBar from './components/navbar'
-//Pages
-import home from './pages/home'
-import login from './pages/login'
-import signup from './pages/sign_up'
-
+import { Layout, Header, Navigation, Drawer, Content} from 'react-mdl'
+import Main from './components/main'
+import {Link} from 'react-router-dom'
 
 class App extends Component {
-  render() {
+  state = {  }
+  render() { 
     return (
-      <div className='App'>
-        <Router>
-          <NavBar></NavBar>
-          <Switch>
-            <Router path='/' component={home} />
-            <Router path='/login' component={login} />
-            <Router path='/signup' component={signup} />
-          </Switch>
-        </Router>
-        <h1>hello</h1>
-      </div >
-    )
+      <div className="demo-big-content">
+      <Layout>
+          <Header title="Title" scroll>
+              <Navigation>
+                  <Link to="/resume">Resume</Link>
+                  <Link to="/about">About</Link>
+                  <Link to="/projects">Projects</Link>
+                  <Link to="/contact">Contact</Link>
+              </Navigation>
+          </Header>
+          <Drawer title="Title">
+              <Navigation>
+                  <a href="/">Link</a>
+                  <a href="/">Link</a>
+                  <a href="/">Link</a>
+                  <a href="/">Link</a>
+              </Navigation>
+          </Drawer>
+          <Content>
+              <div className="page-content" />
+              <Main/>
+          </Content>
+      </Layout>
+  </div>
+      );
   }
 }
-
-export default App
+ 
+export default App;
