@@ -1,13 +1,13 @@
 
 import React, { Component } from 'react';
 
-class projects extends Component {
+class Projects extends Component {
     state = {  }
     render() { 
         return ( 
-            <h1>projects</h1>
+            <h1>Projects</h1>
          );
     }
 }
  
-export default projects;
+export default Projects;

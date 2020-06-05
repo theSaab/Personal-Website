@@ -1,23 +1,21 @@
-import React from 'react'
-import LandingPage from './landingpage';
-import {BrowserRouter, Switch, Route} from 'react-router-dom'
-import about from './aboutme'
-import contact from './contact'
-import projects from './projects'
-import resume from './resume'
+import React from 'react';
+import { Switch, Route } from 'react-router-dom';
 
+import LandingPage from './LandingPage';
+import About from './About';
+import Contact from './Contact';
+import Projects from './Projects';
+import Resume from './Resume';
 
 
 const Main = () => (
-    <BrowserRouter>
-    <Switch>
-        <Route exact path='/' component={LandingPage} />
-        <Route exact path='/about' component={about} />
-        <Route exact path='/contact' component={contact} />
-        <Route exact path='/projects' component={projects} />
-        <Route exact path='/resume' component={resume} />
-    </Switch>
-    </BrowserRouter>
+  <Switch>
+    <Route exact path="/" component={LandingPage} />
+    <Route path="/about" component={About} />
+    <Route path="/contact" component={Contact} />
+    <Route path="/projects" component={Projects} />
+    <Route path="/resume" component={Resume} />
+  </Switch>
 )
 
 export default Main;
