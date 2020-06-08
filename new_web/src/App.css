@@ -1,6 +1,6 @@
 
 
-.header-color{
+.header{
     background: #c31432;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #920d35, #00ddd5);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to left, #920d35, #00ddd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
@@ -44,6 +44,10 @@
     padding: 2em;
 }
 
+.sab {
+    height: 370px;
+    padding-top: 0em;
+}
 
 .resume-left-col h2 {
     color: 	whitesmoke;
@@ -119,4 +123,27 @@
 
 .tab {
     border-top:;
+}
+
+.toBeDeveloped {
+    color: wheat;
+}
+
+.contact-right-col {
+    color: black;
+    background-color: #00ddd5;
+    padding: 2em;
+}
+
+.contact-left-col {
+    color: white;
+    background-color: #6e415e;
+    padding: 2em;
+}
+
+.contact-left-col p {
+    color: white;
+    background-color: #6e415e;
+    font-size: x-large;
+    font-family: 'Serif'
 }

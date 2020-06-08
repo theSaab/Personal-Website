@@ -14,9 +14,10 @@ class Resume extends Component {
                 <Cell col={6} className='resume-left-col'>
                     <div style={{textAlign: 'center'}}>
                     <img 
-                        src='https://lh3.googleusercontent.com/8B-BqNmRXAft73_SwQT7MKtHNT2Ers4iF04fV7QBHC9dA_odqvcMKW0ic3eGOu59ouGjgIjcRVDxXWhPVgZW0ajDe6_bdKzxCJJnpZLLYCCOOplnsdQzuhn5vGKruOCPZQ394ToR2GBnVOS94un7CTsvozPIqDHSZ00CLCkP4O8hdB-pMpAFfXf8qckojtTihZRWi3CBZnBSQz_kHn2ErL120kQMacy1bgd8DuCt6ZUWaPnP9oIM9-PtLtjUqjnIjMzJXMzFMrqKeFn0ndg_gKAZGMfBvYSxeYmTSBazCsl_V9gJKYO-SUWWf5MUIlyG0ESolMw88NFYlseXbjAIq1kYhv_93-GZ4DKI0Nd3GVfCZLhNLfVBFUW9AungCQSB3KgOj7JDX-lFo_Wa4seGYn-YXIW6MRGqrm-IgmXYwYAOwg1Yvnukx8MALcvQQ0Y4dBU95AfOusRC2dsggK5yVoJEIZc5RfKlWcqkldGd-bh8Rs_FuUk-uigJ0Wzq2jCo6PdSO7Imx5sQnB5_V8ThiDOWlM5QQaDsEFFCBd4TL2u1QcfsgqGmhyRTVkHm3t_PF00Y6LDkvFhWBzcL9y7vWKc4cRjwalB8Nts0IHiUgI1iZq04j3F3YpiYHXRYPsNUrmEnKiZL9VqIeyF4TIP_T6fCDePDq9ztqPD6ON_m9T60Im1NW1WS6FJYT_VmhA=w1024-h576-no?authuser=0'
+                        src='sab_trist.JPG'
                         alt='saba'
-                        style={{height: '270px', textAlign:'center'}} />
+                        className='sab'
+                        />
                     </div>
                     <h2 style={{paddingTop: '0em'}}>Saba Bruh</h2>
                     <h4 style={{}}>Porgramme</h4>
@@ -58,12 +59,12 @@ class Resume extends Component {
                     />
                     
                 <Skills 
-                    skill='javascript'
-                    progress={0}
+                    skill='JavaScript'
+                    progress={10}
                 />
                 <Skills
                     skill='HTML'
-                    progress={70}
+                    progress={50}
                 />
                 <Skills
                     skill='React'

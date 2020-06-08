@@ -15,49 +15,59 @@ class Projects extends Component {
         if (this.state.activeTab === 0) {
             return (
                 <div className='projects-name'>
-                   
+
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#ef5350', height: '176px', background: 'url(https://i.kym-cdn.com/entries/icons/facebook/000/016/540/hgh08Pez.jpg) center / cover' }}>Bruh Mandems</CardTitle>
-                        <CardText> Top bruh moments</CardText>
+                        <CardTitle style={{
+                            color: '#ffffff', height: '176px',
+                            background: 'url(https://twinfinite.net/wp-content/uploads/2015/11/fallout-4-hacking-600x337.jpg) center / cover'
+                        }}>
+                            Fallout Hacking Simulator</CardTitle>
+                        <CardText> Python simulation of the hacking in Fallout games. </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>LiveDemo</Button>
+                            <a href="https://github.com/theSaab/Project/blob/master/fallout_terminal..py" rel="noopener noreferrer" target="_blank">
+                                <Button>Github</Button>
+                            </a>
                         </CardActions>
-                        <CardMenu style={{ color: '#ef5350' }}>
+                        <CardMenu style={{ color: '' }}>
                             <IconButton name='share' />
                         </CardMenu>
                     </Card>
 
-                    
+
                     <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
-                        <CardTitle style={{ color: '#29b6f6', height: '176px', background: 'url(https://i.redd.it/m36watjbu8d31.jpg) center / cover' }}>Who dunnit</CardTitle>
-                        <CardText> Why doe bruh</CardText>
+                        <CardTitle style={{
+                            color: '#24a9ae', height: '176px',
+                            background: 'url(https://leetcode.com/static/images/LeetCode_Sharing.png) center / cover'
+                        }}>
+                        </CardTitle>
+                        <CardText>All work realted to my Python leetcode work,
+                        a project in itself.
+                        </CardText>
                         <CardActions border>
-                            <Button colored>Github</Button>
-                            <Button colored>CodePen</Button>
-                            <Button colored>LiveDemo</Button>
+                            <a href="https://github.com/theSaab/leetcode" rel="noopener noreferrer" target="_blank">
+                                <Button>Github</Button>
+                            </a>
                         </CardActions>
-                        <CardMenu style={{ color: '#29b6f6' }}>
-                            <IconButton name='share' />
-                        </CardMenu>
+                        <CardMenu style={{ color: '#ffffff' }}>
+                            <IconButton name='share' onClick='' />
+                            </CardMenu>
                     </Card>
                 </div>
             )
         }
         else if (this.state.activeTab === 1) {
             return (
-                <div><h1>this is Angular</h1></div>
+                <div className='toBeDeveloped'><h1>To be developed.</h1></div>
             )
         }
         else if (this.state.activeTab === 2) {
             return (
-                <div><h1>this is VueJS</h1></div>
+                <div className='toBeDeveloped'><h1>To be developed.</h1></div>
             )
         }
         else if (this.state.activeTab === 3) {
             return (
-                <div><h1>this is MongoDB</h1></div>
+                <div className='toBeDeveloped'><h1>To be developed.</h1></div>
             )
         }
     }
@@ -67,9 +77,9 @@ class Projects extends Component {
             <div className='tabs'>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab className='tab'>React</Tab>
-                    <Tab >Angular</Tab>
-                    <Tab >VueJS</Tab>
-                    <Tab >MongoDB</Tab>
+                    <Tab >To be developed.</Tab>
+                    <Tab >To be developed.</Tab>
+                    <Tab >To be developed.</Tab>
                 </Tabs>
 
                 <Grid className='projects-grid'>
