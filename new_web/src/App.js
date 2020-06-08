@@ -1,50 +1,3 @@
-// import React, { Component } from 'react';
-// import './App.css'
-// import { Route, Switch, BrowserRouter as Router, Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
-// import Main from './components/Main'
-// import Resume from './components/Resume'
-// import About from './components/About'
-// import Projects from './components/Projects'
-// import Contact from './components/Contact'
-
-// class App extends Component {
-//   constructor() {
-//     super()
-//       this.state = {}
-//   }
-//   render() {
-//     return (
-//       <div className="demo-big-content">
-//         <Layout>
-//           <Header title="Title" scroll>
-//             <Router>
-//               <Switch>
-//                 <Route exact path="/resume" component={Resume} />
-//                 <Route exact path="/about" component={About} />
-//                 <Route exact path="/projects" component={Projects} />
-//                 <Route exact path="/contact" component={Contact} />
-//               </Switch>
-//             </Router>
-//           </Header>
-//           <Drawer title="Title">
-//             <Navigation>
-//               <a href="/">Link</a>
-//               <a href="/">Link</a>
-//               <a href="/">Link</a>
-//               <a href="/">Link</a>
-//             </Navigation>
-//           </Drawer>
-//           <Content>
-//             <div className="page-content" />
-//             <Main />
-//           </Content>
-//         </Layout>
-//       </div>
-//     );
-//   }
-// }
-
-// export default App;
 
 import React, { Component } from 'react';
 import './App.css';
@@ -57,17 +10,20 @@ class App extends Component {
     return (
       <div className="demo-big-content">
     <Layout>
-        <Header className="header-color" title={<Link style={{textDecoration: 'none', color: 'white'}} to="/">MyPortfolio</Link>} scroll>
+        <Header className="header-color" 
+        title={<Link style={{textDecoration: 'none', color: 'white'}} 
+        to="/" className='fa fa-home fa-1.5x'> MyPortfolio</Link>} scroll>
             <Navigation>
-                <Link to="/resume">Resume</Link>
-                <Link to="/about">About Me</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/resume" className='fa fa-book'>  Resume</Link>
+                <Link to="/about" className='fa fa-address-card'>  About Me</Link>
+                <Link to="/projects" className='fa fa-tasks'>   Projects</Link>
+                <Link to="/contact" className='fa fa-at'>   Contact</Link>
             </Navigation>
         </Header>
-        <Drawer title={<Link style={{textDecoration: 'none', color: 'black'}} to="/">MyPortfolio</Link>}>
+        <Drawer title={<Link style={{textDecoration: 'white', color: 'black'}} 
+        to="/" className='fa fa-eye '>MyPortfolio</Link>}>
             <Navigation>
-                <Link to="/resume">Resume</Link>
+                <Link to="/resume" >Resume</Link>
                 <Link to="/about">About Me</Link>
                 <Link to="/projects">Projects</Link>
                 <Link to="/contact">Contact</Link>

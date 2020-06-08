@@ -2,30 +2,77 @@
 
 .header-color{
     background: #c31432;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to right, #920d35, #00ddd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #920d35, #00ddd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .landing-grid{
     background: #c31432;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-text-align: center;
-position: fixed;
-top: 0;
-left: 0;
-width: 100%;
-height: 100%;
+    background: -webkit-linear-gradient(to right, #920d35, #00ddd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #920d35, #00ddd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
-.lizard {
-    height: 250px;
+.projects-grid {
+    display: flex;
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #920d35, #00ddd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #920d35, #00ddd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    position: absolute;
+    top: 10;
+    left: 20;
+    width: 100%;
+    height: 100%;
+};     
+
+.tabs {
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #920d35, #00ddd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #920d35, #00ddd5);
+}
+
+
+.resume-left-col {
+    background: #6e415e;
+    background: #6e415e;
+    color: white;
+    padding: 2em;
+}
+
+
+.resume-left-col h2 {
+    color: 	whitesmoke;
+}
+.resume-left-col h4 {
+    color: whitesmoke;
+}
+.resume-left-col p {
+    color: whitesmoke;
+}
+.resume-left-col h5 {
+    color: white;
+    font-weight: bold;
+}
+
+.resume-right-col {
+    background: #24a9ae;
+    background: #24a9ae;
+    color: white;
+    padding: 2em;
+}
+
+.me {
+    height: 400px;
     padding-top: 5em
 }
 
 .banner-text {
-    background-color: #240b36;
+    background-color: #497586;
     opacity: 0.8;
     width: 75%;
     margin: auto;
@@ -35,17 +82,17 @@ height: 100%;
 .banner-text h1 {
     font-size: 66px;
     font-weight: bold;
-    color: white;
+    color: wheat;
 }
 
 .banner-text hr {
-    border-top: 5px dotted white;
+    border-top: 5px dotted wheat;
     width: 50px;
     margin: auto;
 }
 
 .banner-text p {
-    color: white;
+    color: wheat;
     font-size: 20px;
     padding: 1em
 }
@@ -62,4 +109,14 @@ height: 100%;
     color: wheat;
     font-size: 5em;
     padding: 8px;
+}
+
+.tabs {
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #920d35, #00ddd5);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #920d35, #00ddd5);
+}
+
+.tab {
+    border-top:;
 }
