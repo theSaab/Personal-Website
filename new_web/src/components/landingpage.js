@@ -15,14 +15,18 @@ class LandingPage extends Component {
                             className='me' />
 
                         <div className='banner-text' >
-                            <h1>Saba's Full stack web development</h1>
+                            <h1>Saba</h1>
+                            <hr style={{marginTop:'-20px', borderTop: '3px solid wheat', width: '80%' }} />
+                            <h2>McGill University</h2>
+                            <h4>Software Engineer</h4>
+
 
                             <hr />
 
                             <p>Python | React | JavaScript | HTML/CSS</p>
                             <div className="social-links">
                                 <a href="https://www.linkedin.com/in/saba-fathi-7300ab1b0/" rel="noopener noreferrer" target="_blank">
-                                    <i className="fa fa-linkedin-square" aria-hidden="true" />
+                                    <i className="fa fa-linkedin-square linkedin-hover" aria-hidden="true" />
                                 </a>
                                 <a href="https://github.com/theSaab" rel="noopener noreferrer" target="_blank">
                                     <i className="fa fa-github-square" aria-hidden="true" />
@@ -34,12 +38,12 @@ class LandingPage extends Component {
                                     <i className="fa fa-youtube" aria-hidden="true" />
                                 </a>
                             </div>
-                            </div>
+                        </div>
                     </Cell>
                 </Grid>
             </div>
-            );
+        );
     }
 }
- 
+
 export default LandingPage;

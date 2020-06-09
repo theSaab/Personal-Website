@@ -16,9 +16,9 @@ class Projects extends Component {
             return (
                 <div className='projects-name'>
 
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                    <Card shadow={5} style={{ minWidth: '500', margin: 'auto' }}>
                         <CardTitle style={{
-                            color: '#ffffff', height: '176px',
+                            color: '#ffffff', height: '200px',
                             background: 'url(https://twinfinite.net/wp-content/uploads/2015/11/fallout-4-hacking-600x337.jpg) center / cover'
                         }}>
                             Fallout Hacking Simulator</CardTitle>
@@ -34,9 +34,9 @@ class Projects extends Component {
                     </Card>
 
 
-                    <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }}>
+                    <Card shadow={5} style={{ minWidth: '600', margin: 'auto' }}>
                         <CardTitle style={{
-                            color: '#24a9ae', height: '176px',
+                            color: '#24a9ae', height: '200px',
                             background: 'url(https://leetcode.com/static/images/LeetCode_Sharing.png) center / cover'
                         }}>
                         </CardTitle>

@@ -11,7 +11,7 @@ class App extends Component {
       <div className="demo-big-content">
     <Layout>
         <Header className="header" 
-        title={<Link style={{textDecoration: 'none', color: 'white'}} 
+        title={<Link style={{ textDecoration: 'none', color: 'white'}} 
         to="/" className='fa fa-home fa-1.5x'> MyPortfolio</Link>} scroll>
             <Navigation>
                 <Link to="/resume" className='fa fa-book'>  Resume</Link>
