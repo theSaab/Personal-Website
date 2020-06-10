@@ -86,7 +86,7 @@ class Projects extends Component {
 
                         <CardText >
                             <p style={{ fontSize: '20px', color: 'black' }}>
-                                A python program made to test your typing skills. (Needs Tuning) 
+                                A python program made to test your typing skills. (Needs Tuning)
                                 </p>
                         </CardText>
 
@@ -100,8 +100,35 @@ class Projects extends Component {
                                 </Button>
                             </a>
                         </CardActions>
-
                     </Card>
+
+                    <Card shadow={5}
+                        style={{ width: '500px', minWidth: '50px', margin: '10px auto' }}>
+                        <CardTitle style={{
+                            color: 'white', height: '350px',
+                            background: 'url(https://media.wired.com/photos/5954a1b05578bd7594c46869/master/w_1600,c_limit/reddit-alien-red-st.jpg) center / cover'
+                        }}>
+                        </CardTitle>
+
+                        <CardText >
+                            <p style={{ fontSize: '20px', color: 'black' }}>
+                                Spam Python that send you an email
+                                of all Top r/gaming Posts of reddit.
+                                </p>
+                        </CardText>
+
+                        <CardActions border>
+                            <a href="https://github.com/theSaab/Python_Projects/blob/master/auto_email.py"
+                                rel="noopener noreferrer"
+                                target="_blank">
+                                <Button
+                                    style={{ backgroundColor: 'lightblue', color: 'blue', fontSize: '20px' }}>
+                                    Github
+                                </Button>
+                            </a>
+                        </CardActions>
+                    </Card>
+
                 </div>
             )
         }
