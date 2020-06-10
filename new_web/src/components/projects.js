@@ -16,41 +16,91 @@ class Projects extends Component {
             return (
                 <div className='projects-name'>
 
-                    <Card shadow={5} style={{ minWidth: '500', margin: 'auto' }}>
-                        <CardTitle style={{
-                            color: '#ffffff', height: '200px',
-                            background: 'url(https://twinfinite.net/wp-content/uploads/2015/11/fallout-4-hacking-600x337.jpg) center / cover'
+                    <Card shadow={5}
+                        style={{
+                            heigth: 'auto',
+                            width: '500px',
+                            minWidth: '50px',
+                            margin: '15px auto'
                         }}>
-                            Fallout Hacking Simulator</CardTitle>
-                        <CardText> Python simulation of the hacking in Fallout games. </CardText>
+
+                        <CardTitle
+                            style={{
+                                color: 'white', height: '400px',
+                                background: 'url(https://twinfinite.net/wp-content/uploads/2015/11/fallout-4-hacking-600x337.jpg) center / cover'
+                            }}>
+                            Fallout Hacking Simulator
+                        </CardTitle>
+
+                        <CardText >
+                            <p style={{ fontSize: '20px', color: 'black' }}>
+                                Python simulation of the hacking in Fallout games.
+                                </p>
+                        </CardText>
+
                         <CardActions border>
                             <a href="https://github.com/theSaab/Project/blob/master/fallout_terminal..py" rel="noopener noreferrer" target="_blank">
-                                <Button>Github</Button>
+                                <Button
+                                    style={{ backgroundColor: 'lightblue', color: 'blue', fontSize: '20px' }}>
+                                    Github
+                                </Button>
                             </a>
                         </CardActions>
-                        <CardMenu style={{ color: '' }}>
-                            <IconButton name='share' />
-                        </CardMenu>
                     </Card>
 
 
-                    <Card shadow={5} style={{ minWidth: '600', margin: 'auto' }}>
+                    <Card shadow={5}
+                        style={{ width: '500px', minWidth: '50px', margin: 'auto' }}>
                         <CardTitle style={{
-                            color: '#24a9ae', height: '200px',
+                            color: 'white', height: '300px',
                             background: 'url(https://leetcode.com/static/images/LeetCode_Sharing.png) center / cover'
                         }}>
                         </CardTitle>
-                        <CardText>All work realted to my Python leetcode work,
-                        a project in itself.
+
+                        <CardText >
+                            <p style={{ fontSize: '20px', color: 'black' }}>
+                                All work realted to my Python leetcode work,
+                            a project in itself. </p>
                         </CardText>
+
                         <CardActions border>
-                            <a href="https://github.com/theSaab/leetcode" rel="noopener noreferrer" target="_blank">
-                                <Button>Github</Button>
+                            <a href="https://github.com/theSaab/leetcode"
+                                rel="noopener noreferrer"
+                                target="_blank">
+                                <Button
+                                    style={{ backgroundColor: 'lightblue', color: 'blue', fontSize: '20px' }}>
+                                    Github
+                                </Button>
                             </a>
                         </CardActions>
-                        <CardMenu style={{ color: '#ffffff' }}>
-                            <IconButton name='share' onClick='' />
-                            </CardMenu>
+
+                    </Card>
+
+                    <Card shadow={5}
+                        style={{ width: '500px', minWidth: '50px', margin: '10px auto' }}>
+                        <CardTitle style={{
+                            color: 'white', height: '300px',
+                            background: 'url(https://lh3.googleusercontent.com/proxy/NhcDVaSdXOuQXp1dakMCCMjYgtMlDN7J6SroCd26vd71D2c6696Jw3d-KN0c5qD42dKL3xVocEyAPF50wn77KMxFDeWpGkxHH_WMXlGa5HhJ9K5fIhPtPFcbIDTE51nb8w) center / cover'
+                        }}>
+                        </CardTitle>
+
+                        <CardText >
+                            <p style={{ fontSize: '20px', color: 'black' }}>
+                                A python program made to test your typing skills. (Needs Tuning) 
+                                </p>
+                        </CardText>
+
+                        <CardActions border>
+                            <a href="https://github.com/theSaab/Python_Projects/blob/master/speed_typing_test.py"
+                                rel="noopener noreferrer"
+                                target="_blank">
+                                <Button
+                                    style={{ backgroundColor: 'lightblue', color: 'blue', fontSize: '20px' }}>
+                                    Github
+                                </Button>
+                            </a>
+                        </CardActions>
+
                     </Card>
                 </div>
             )
@@ -76,10 +126,10 @@ class Projects extends Component {
         return (
             <div className='tabs'>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
-                    <Tab className='tab'>React</Tab>
+                    <Tab className='tab'>Python</Tab>
+                    {/* <Tab >To be developed.</Tab>
                     <Tab >To be developed.</Tab>
-                    <Tab >To be developed.</Tab>
-                    <Tab >To be developed.</Tab>
+                    <Tab >To be developed.</Tab> */}
                 </Tabs>
 
                 <Grid className='projects-grid'>

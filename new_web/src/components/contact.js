@@ -11,14 +11,23 @@ class Contact extends Component {
                     <Cell col={6} className='contact-left-col'>
                         <h2>Saba Jun</h2>
                         <img
-                            src="https://i.kym-cdn.com/photos/images/newsfeed/001/598/769/782.jpg"
+                            src="buffet.jpg"
                             alt="avatar"
-                            style={{ height: '330px', textAlign: 'center' }}
-                        />
-                        <p style={{ width: '90%', margin: 'auto', paddingTop: '2em', textAlign: 'justify' }}>
-                            My name is Monke, I have lived for Eons, and will live for more. I have transcended time and space.
-                            Do not underestimate me bruh, I know of your top bruh moments.
-             </p>
+                            style={{ 
+                                height: '280px', 
+                                textAlign: 'center' }}/>
+                        
+                        <p style={{ 
+                            width: '90%', 
+                            margin: 'auto', 
+                            paddingTop: '2em', 
+                            textAlign: 'justify', 
+                            lineHeight: '2em',
+                            }}>
+                        If you would like to message me, I am available 18/7
+                        through these platforms, do not send spam or 
+                        I will retaliate. May your road lead to warm sands.
+                        </p>
 
                     </Cell>
                     <Cell col={6} className='contact-right-col'>
