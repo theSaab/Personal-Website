@@ -12,6 +12,8 @@ class Projects extends Component {
 
     toggleCategories() {
 
+
+        // Python Page
         if (this.state.activeTab === 0) {
             return (
                 <div className='projects-name'>
@@ -27,13 +29,14 @@ class Projects extends Component {
                         <CardTitle
                             style={{
                                 color: 'white', height: '400px',
-                                background: 'url(https://twinfinite.net/wp-content/uploads/2015/11/fallout-4-hacking-600x337.jpg) center / cover'
+                                background: 'url(https://attackofthefanboy.com/wp-content/uploads/2018/11/fallout-terminal-computer-hacking-guide.jpg) center / cover'
                             }}>
-                            Fallout Hacking Simulator
                         </CardTitle>
 
                         <CardText >
                             <p style={{ fontSize: '20px', color: 'black' }}>
+                                <strong>Fallout Hacking Simulator</strong>
+                                <br />
                                 Python simulation of the hacking in Fallout games.
                                 </p>
                         </CardText>
@@ -59,8 +62,11 @@ class Projects extends Component {
 
                         <CardText >
                             <p style={{ fontSize: '20px', color: 'black' }}>
+                                <strong>Python Leetcode Work</strong>
+                                <br />
                                 All work realted to my Python leetcode work,
-                            a project in itself. </p>
+                                a project in itself.
+                            </p>
                         </CardText>
 
                         <CardActions border>
@@ -80,12 +86,14 @@ class Projects extends Component {
                         style={{ width: '500px', minWidth: '50px', margin: '10px auto' }}>
                         <CardTitle style={{
                             color: 'white', height: '300px',
-                            background: 'url(https://lh3.googleusercontent.com/proxy/NhcDVaSdXOuQXp1dakMCCMjYgtMlDN7J6SroCd26vd71D2c6696Jw3d-KN0c5qD42dKL3xVocEyAPF50wn77KMxFDeWpGkxHH_WMXlGa5HhJ9K5fIhPtPFcbIDTE51nb8w) center / cover'
+                            background: 'url(https://res.cloudinary.com/rebelwalls/image/upload/b_black,c_fit,f_auto,fl_progressive,q_auto,w_1333/v1428566541/article/R11851_image1) center'
                         }}>
                         </CardTitle>
 
                         <CardText >
                             <p style={{ fontSize: '20px', color: 'black' }}>
+                                <strong>TypeTester Program</strong>
+                                <br />
                                 A python program made to test your typing skills. (Needs Tuning)
                                 </p>
                         </CardText>
@@ -112,7 +120,9 @@ class Projects extends Component {
 
                         <CardText >
                             <p style={{ fontSize: '20px', color: 'black' }}>
-                                Spam Python that send you an email
+                                <strong>Email API</strong>
+                                <br />
+                                Spam Python program that send you an email
                                 of all Top r/gaming Posts of reddit.
                                 </p>
                         </CardText>
@@ -132,9 +142,41 @@ class Projects extends Component {
                 </div>
             )
         }
+
+        // React Page
         else if (this.state.activeTab === 1) {
             return (
-                <div className='toBeDeveloped'><h1>To be developed.</h1></div>
+                <div className='react'>
+
+                    <Card shadow={5}
+                        style={{ width: '500px', minWidth: '50px', margin: '10px auto' }}>
+                        <CardTitle style={{
+                            color: 'white', height: '350px',
+                            background: 'url(https://images-na.ssl-images-amazon.com/images/I/51G26e3Y9XL._AC_SX425_.jpg) center / cover'
+                        }}>
+                        </CardTitle>
+
+                        <CardText >
+                            <p style={{ fontSize: '20px', color: 'black' }}>
+                                <strong>Counter</strong>
+                                <br />
+                                Counter React Program, not very interesting.
+                                </p>
+                        </CardText>
+
+                        <CardActions border>
+                            <a href="https://github.com/theSaab/Website"
+                                rel="noopener noreferrer"
+                                target="_blank">
+                                <Button
+                                    style={{ backgroundColor: 'lightblue', color: 'blue', fontSize: '20px' }}>
+                                    Github
+                                </Button>
+                            </a>
+                        </CardActions>
+                    </Card>
+
+                </div>
             )
         }
         else if (this.state.activeTab === 2) {
@@ -154,8 +196,8 @@ class Projects extends Component {
             <div className='tabs'>
                 <Tabs activeTab={this.state.activeTab} onChange={(tabId) => this.setState({ activeTab: tabId })} ripple>
                     <Tab className='tab'>Python</Tab>
-                    {/* <Tab >To be developed.</Tab>
-                    <Tab >To be developed.</Tab>
+                    <Tab >React</Tab>
+                    {/*<Tab >To be developed.</Tab>
                     <Tab >To be developed.</Tab> */}
                 </Tabs>
 

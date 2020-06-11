@@ -43,7 +43,7 @@ class About extends Component {
                             </div>
                             <div class="desc">
                                 No idea how one survives in primary
-                                without breaking a leg or something
+                                without breaking a leg or something.
                             </div>
                         </div>
                     </li>

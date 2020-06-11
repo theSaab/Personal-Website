@@ -13,26 +13,27 @@ class Contact extends Component {
                         <img
                             src="buffet.jpg"
                             alt="avatar"
-                            style={{ 
-                                height: '280px', 
-                                textAlign: 'center' }}/>
-                        
-                        <p style={{ 
-                            width: '90%', 
-                            margin: 'auto', 
-                            paddingTop: '2em', 
-                            textAlign: 'justify', 
+                            style={{
+                                height: '280px',
+                                textAlign: 'center'
+                            }} />
+
+                        <p style={{
+                            width: '90%',
+                            margin: 'auto',
+                            paddingTop: '2em',
+                            textAlign: 'justify',
                             lineHeight: '2em',
-                            }}>
-                        If you would like to message me, I am available 18/7
-                        through these platforms, do not send spam or 
-                        I will retaliate. May your road lead to warm sands.
+                        }}>
+                            If you would like to message me, I am available 18/7
+                            through these platforms, do not send spam or
+                            I will retaliate. May your road lead to warm sands.
                         </p>
 
                     </Cell>
                     <Cell col={6} className='contact-right-col'>
                         <h2>Contact Me</h2>
-                        <hr style={{borderTop: '3px solid #ffffff', width: '95%'}}/>
+                        <hr style={{ borderTop: '3px solid #ffffff', width: '95%' }} />
 
                         <div className="contact-list">
                             <List>
@@ -56,7 +57,7 @@ class Contact extends Component {
 
                                 <ListItem>
                                     <ListItemContent style={{ fontSize: '30px', color: 'white', fontFamily: 'Anton' }}>
-                                        <i className="fa fa-skype" aria-hidden="true" />  N/A
+                                        <i className="fa fa-skype" aria-hidden="true" />  saba.fathi_1
                                         </ListItemContent>
                                 </ListItem>
                                 <ListItem>

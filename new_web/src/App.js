@@ -14,6 +14,7 @@ class App extends Component {
         title={<Link style={{ textDecoration: 'none', color: 'white'}} 
         to="/" className='fa fa-home fa-1.5x'> MyPortfolio</Link>} scroll>
             <Navigation>
+                <Link to='/parsa' className='fa fa-eye'> Parsa Click Here</Link>
                 <Link to="/resume" className='fa fa-book'>  Resume</Link>
                 <Link to="/about" className='fa fa-address-card'>  About Me</Link>
                 <Link to="/projects" className='fa fa-tasks'>   Projects</Link>

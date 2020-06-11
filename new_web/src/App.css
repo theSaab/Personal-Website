@@ -47,7 +47,7 @@
 }
 
 .about-col h1 {
-    font-family: serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .sab {
@@ -100,32 +100,34 @@
 }
 .resume-left-col h2 {
     color: 	rgb(222, 229, 238);
-    font-family: serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 
 }
 .resume-left-col h4 {
     color: rgb(222, 229, 238);
-    font-family: serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 .resume-left-col p {
     color: rgb(222, 229, 238);
-    font-family: serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+    line-height: 40px;
 }
 .resume-left-col h5 {
     color: rgb(222, 229, 238);
     font-weight: bold;
-    font-family: serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .resume-right-col {
     background: #011f4b;
     color: rgb(222, 229, 238);
     padding: 2em;
-    font-family: serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .resume-right-col h2 {
-    font-family: serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 .me {
@@ -241,7 +243,7 @@
     color: white;
     background-color: #011f4b;
     font-size: x-large;
-    font-family: serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 
@@ -329,7 +331,7 @@ html, body { height:95%;} /* Important to make sure your divs have room to grow 
     background: black;
     padding: 15px 20px;
     border-radius: 10px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: ;
     font-weight: 600;
     text-align: left;
@@ -423,8 +425,9 @@ html, body { height:95%;} /* Important to make sure your divs have room to grow 
     margin: 1em 0.75em 0 0;
     font-size: 1.5em;
     font-style: ;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     line-height: 1.5em;
+    text-align:justify;
   }
   
   .direction-r .desc {
@@ -537,4 +540,22 @@ html, body { height:95%;} /* Important to make sure your divs have room to grow 
       margin: 1em 4em 0 4em;
   }
   
+  }
+
+
+  .education-grid p {
+    font-size: 20px;
+  }
+
+  
+  .education-grid h4 {
+    font-size: 30px;
+  }
+
+  .epxerience p {
+    font-size: 200px;
+  }
+
+  .epxerience h4 {
+    font-size: 300px;
   }
