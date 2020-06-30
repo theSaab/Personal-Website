@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Cell, Grid, List, ListItem, ListItemContent } from "react-mdl";
+import buffet from "../assets/buffet.jpg";
 
 class Contact extends Component {
   render() {
@@ -9,7 +10,7 @@ class Contact extends Component {
           <Cell col={6} className="contact-left-col">
             <h2>Saba Jun</h2>
             <img
-              src="buffet.jpg"
+              src={buffet}
               alt="avatar"
               style={{
                 height: "280px",
@@ -46,7 +47,7 @@ class Contact extends Component {
                     }}
                   >
                     <i className="fa fa-phone-square" aria-hidden="true" />{" "}
-                    (613)-240-5353
+                    (613) 240-5353
                   </ListItemContent>
                 </ListItem>
 

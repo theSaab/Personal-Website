@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 import About from "./About";
 import Contact from "./Contact";
 import LandingPage from "./LandingPage";
-import Parsa from "./parsa";
+import Parsa from "./Parsa";
 import Projects from "./Projects";
 import Resume from "./Resume";
 

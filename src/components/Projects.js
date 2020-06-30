@@ -84,7 +84,7 @@ class Projects extends Component {
               <p style={{ fontSize: "20px", color: "black" }}>
                 <strong>Python Leetcode Work</strong>
                 <br />
-                All work realted to my Python leetcode work, a project in
+                All work related to my Python Leetcode work, a project in
                 itself.
               </p>
             </CardText>
@@ -124,7 +124,7 @@ class Projects extends Component {
             <CardText>
               <p style={{ fontSize: "20px", color: "black" }}>
                 <strong>TypeTester Program</strong>
-                <br />A python program made to test your typing skills. (Needs
+                <br />A Python program made to test your typing skills. (Needs
                 Tuning)
               </p>
             </CardText>
@@ -165,8 +165,8 @@ class Projects extends Component {
               <p style={{ fontSize: "20px", color: "black" }}>
                 <strong>Email API</strong>
                 <br />
-                Spam Python program that send you an email of all Top r/gaming
-                Posts of reddit.
+                Spam Python program that sends you an email of all the Top{" "}
+                <i>r/gaming</i> posts of reddit.
               </p>
             </CardText>
 

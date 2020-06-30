@@ -1,8 +1,9 @@
 import React, { Component } from "react";
 import { Cell, Grid } from "react-mdl";
-import Education from "./education";
+import Education from "./Education";
 import Experience from "./Experience";
 import Skills from "./Skills";
+import sab_trist from "../assets/sab_trist.jpg";
 
 class Resume extends Component {
   state = {};
@@ -11,23 +12,39 @@ class Resume extends Component {
       <Grid>
         <Cell col={6} className="resume-left-col">
           <div style={{ textAlign: "center" }}>
-            <img src="sab_trist.JPG" alt="saba" className="sab" />
+            <img
+              style={{ height: "50%", width: "50%" }}
+              src={sab_trist}
+              alt="saba"
+              className="sab"
+            />
           </div>
           <h2 style={{ paddingTop: "0em" }}>Saba Bruh</h2>
           <h4 style={{}}>Program</h4>
           <hr style={{ borderTop: "3px solid #fff", width: "95%" }} />
           <p>
-            I am a software engineer student who goes to McGill University in
+            I am a Software Engineer student who goes to McGill University in
             Montreal, who is awaiting orders to study at home. This will be an
             interesting semester.
           </p>
           <hr style={{ borderTop: "3px solid #fff", width: "95%" }} />
-          <h5>Addresse</h5>
-          <p>Haccker 5th street</p>
+          <h5>Address</h5>
+          <p>Hacker 5th Street</p>
           <h5>Phone</h5>
-          <p>613-240-5353</p>
+          <p>(613) 240-5353</p>
           <h5>Email</h5>
-          <p>saba.fathi@emailgmail.info</p>
+          <p>
+            <a
+              style={{
+                textDecoration: "none",
+                color: "inherit",
+                fontSize: "inherit",
+              }}
+              href="mailto:saba.fathi@emailgmail.info"
+            >
+              saba.fathi@emailgmail.info
+            </a>
+          </p>
           <hr style={{ borderTop: "3px solid #fff", width: "95%" }} />
         </Cell>
         <Cell className="resume-right-col" col={6}>
@@ -35,7 +52,7 @@ class Resume extends Component {
           <Education
             startYear={2012}
             endYear={2018}
-            schoolName="Saint-Alexandre"
+            schoolName="École Secondaire Saint-Alexandre"
             schoolDescription="Old looking school with some very rich
                         people and some other not very rich people. Nothing else interesting
                         about the school."
@@ -45,7 +62,7 @@ class Resume extends Component {
             endYear={2020}
             schoolName="Heritage College"
             schoolDescription="Old head school for liberal art students
-                        and liberals.The english version of Felix-Lecler Cegep."
+                        and liberals. The English version of Félix-Lecler Cegep."
           />
 
           <hr style={{ borderTop: "3px solid #fff" }} />
@@ -54,7 +71,7 @@ class Resume extends Component {
 
           <Experience
             startYear={2019}
-            endYear={2019}
+            endYear={2020}
             jobName="Lifeguard"
             jobDescription="Ensure the safety of multiple individuals 
                         observation and patience. Control liquid environment with harsh chemicals

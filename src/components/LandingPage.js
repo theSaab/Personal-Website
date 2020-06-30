@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Cell, Grid } from "react-mdl";
+import camera from "../assets/camera.jpg";
 
 class LandingPage extends Component {
   state = {};
@@ -8,7 +9,7 @@ class LandingPage extends Component {
       <div style={{ width: "auto", margin: "auto" }}>
         <Grid className="landing-grid">
           <Cell col={12}>
-            <img className="me" src="camera.jpg" alt="me" />
+            <img className="me" src={camera} alt="me" />
 
             <div className="banner-text">
               <h1>Saba</h1>
@@ -28,18 +29,16 @@ class LandingPage extends Component {
                 <a href="https://www.python.org/" target="_blank">
                   Python
                 </a>{" "}
-                |
+                |{" "}
                 <a href="https://reactjs.org/" target="_blank">
-                  {" "}
                   React
                 </a>{" "}
-                |
+                |{" "}
                 <a href="https://www.javascript.com/" target="_blank">
                   JavaScript
                 </a>{" "}
-                |
+                |{" "}
                 <a href="https://html.com/" target="_blank">
-                  {" "}
                   HTML/CSS
                 </a>
               </p>
