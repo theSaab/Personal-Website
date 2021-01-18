@@ -11,6 +11,9 @@ import {
   Tabs,
 } from "react-mdl";
 
+import games from "../assets/games.png";
+
+
 class Projects extends Component {
   constructor(props) {
     super(props);
@@ -50,7 +53,7 @@ class Projects extends Component {
 
             <CardActions border>
               <a
-                href="https://github.com/theSaab/Project/blob/master/fallout_terminal..py"
+                href="https://github.com/theSaab/Python_Projects/blob/master/fallout_terminal..py"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -172,7 +175,7 @@ class Projects extends Component {
 
             <CardActions border>
               <a
-                href="https://github.com/theSaab/Python_Projects/blob/master/auto_email.py"
+                href="https://github.com/theSaab/Python_Projects/blob/master/reddit_scrapper.py"
                 rel="noopener noreferrer"
                 target="_blank"
               >
@@ -220,6 +223,46 @@ class Projects extends Component {
             <CardActions border>
               <a
                 href="https://github.com/theSaab/Website"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <Button
+                  style={{
+                    backgroundColor: "lightblue",
+                    color: "blue",
+                    fontSize: "20px",
+                  }}
+                >
+                  Github
+                </Button>
+              </a>
+            </CardActions>
+          </Card>
+          <Card
+            shadow={5}
+            style={{ width: "500px", minWidth: "50px", margin: "10px auto" }}
+          >
+            <CardTitle
+              style={{
+                color: "white",
+                height: "350px",
+                background:
+                  "url(https://cache.desktopnexus.com/thumbseg/2470/2470297-bigthumbnail.jpg) center / cover",
+              }}
+            ></CardTitle>
+
+            <CardText>
+              <p style={{ fontSize: "20px", color: "black" }}>
+                <strong>Game_Search</strong>
+                <br />
+                A react web app that allows the user to search up specific games. Returns all relevant 
+                information regarding the game.
+              </p>
+            </CardText>
+
+            <CardActions border>
+              <a
+                href="https://github.com/theSaab/Game_Search"
                 rel="noopener noreferrer"
                 target="_blank"
               >

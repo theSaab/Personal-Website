@@ -24,10 +24,10 @@ class App extends Component {
             scroll
           >
             <Navigation>
-              <Link to="/parsa" className="fa fa-eye">
+              {/* <Link to="/parsa" className="fa fa-eye">
                 {" "}
                 Parsa Click Here
-              </Link>
+              </Link> */}
               <Link to="/resume" className="fa fa-book">
                 {" "}
                 Resume

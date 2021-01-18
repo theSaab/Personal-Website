@@ -19,17 +19,16 @@ class Resume extends Component {
               className="sab"
             />
           </div>
-          <h2 style={{ paddingTop: "0em" }}>Saba Bruh</h2>
+          <h2 style={{ paddingTop: "0em" }}>Saba</h2>
           <h4 style={{}}>Program</h4>
           <hr style={{ borderTop: "3px solid #fff", width: "95%" }} />
           <p>
-            I am a Software Engineer student who goes to McGill University in
-            Montreal, who is awaiting orders to study at home. This will be an
-            interesting semester.
+            I am a Software Engineer student who  McGill University in
+            Montreal. This will be an interesting semester.
           </p>
           <hr style={{ borderTop: "3px solid #fff", width: "95%" }} />
-          <h5>Address</h5>
-          <p>Hacker 5th Street</p>
+          {/* <h5>Address</h5>
+          <p>Hacker 5th Street</p> */}
           <h5>Phone</h5>
           <p>(613) 240-5353</p>
           <h5>Email</h5>
@@ -53,16 +52,19 @@ class Resume extends Component {
             startYear={2012}
             endYear={2018}
             schoolName="École Secondaire Saint-Alexandre"
-            schoolDescription="Old looking school with some very rich
-                        people and some other not very rich people. Nothing else interesting
-                        about the school."
+            // schoolDescription=""
           />
           <Education
             startYear={2018}
             endYear={2020}
             schoolName="Heritage College"
-            schoolDescription="Old head school for liberal art students
-                        and liberals. The English version of Félix-Lecler Cegep."
+            // schoolDescription=""
+          />
+           <Education
+            startYear={2020}
+            endYear={2024}
+            schoolName="McGill University"
+            // schoolDescription=""
           />
 
           <hr style={{ borderTop: "3px solid #fff" }} />
@@ -81,12 +83,11 @@ class Resume extends Component {
           <hr style={{ borderTop: "3px solid #fff" }} />
 
           <h3>Programming Experience</h3>
-
-          <Skills skill="JavaScript" progress={10} />
+          <Skills skill="Java" progress={80} />
+          <Skills skill="Python " progress={80} />
           <Skills skill="HTML" progress={50} />
-          <Skills skill="React" progress={30} />
-          <Skills skill="NodeJS" progress={0} />
-          <Skills skill="Python" progress={80} />
+          <Skills skill="React " progress={30} />
+          <Skills skill="NodeJS" progress={5} />
         </Cell>
       </Grid>
     );

@@ -15,8 +15,7 @@ class About extends Component {
                 </span>
               </div>
               <div class="desc">
-                I am born into the dark world of 2001. Is this my fate? Only
-                time will tell.
+                I was born in Ottawa in 2001.
               </div>
             </div>
           </li>
@@ -30,9 +29,7 @@ class About extends Component {
                 </span>
               </div>
               <div class="desc">
-                I grew up in Ottawa South and lived off of Grandma food, weird
-                smells and weirder routines. Any and all friendships lasted no
-                longer than twenty (20) minutes.
+                I grew up in Ottawa South.
               </div>
             </div>
           </li>
@@ -46,8 +43,7 @@ class About extends Component {
                 </span>
               </div>
               <div class="desc">
-                No idea how one survives in primary without breaking a leg or
-                something.
+                I went to Rapides-Deschenes primary school in Gatineau.
               </div>
             </div>
           </li>
@@ -61,14 +57,39 @@ class About extends Component {
                 </span>
               </div>
               <div class="desc">
-                After suffering severe mental abuse by the hands of power hungry
-                teachers. I studied to be accepted into College Saint-Alexandre.
-                Here I learned that gossip is a waste bean, and that many things
-                teachers tell you that matter later on in College actually don't
-                matter, at all. So that was a bunch of lies. Bruh
+                I went to College Saint-Alexandre and obtained a high school diploma.                
               </div>
             </div>
           </li>
+
+          <li>
+            <div class="direction-r">
+              <div class="flag-wrapper">
+                <span class="flag">Cegep</span>
+                <span class="time-wrapper">
+                  <span class="time">2018 - 2020</span>
+                </span>
+              </div>
+              <div class="desc">
+                I obtained my college degree from Heritage College.                
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="direction-l">
+              <div class="flag-wrapper">
+                <span class="flag">University</span>
+                <span class="time-wrapper">
+                  <span class="time">2020 - 2024</span>
+                </span>
+              </div>
+              <div class="desc">
+                I am currently studying remotely for a B.Eng in Software Engineering.
+              </div>
+            </div>
+          </li>
+
         </ul>
       </div>
     );

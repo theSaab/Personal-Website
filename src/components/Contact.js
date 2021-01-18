@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Cell, Grid, List, ListItem, ListItemContent } from "react-mdl";
-import buffet from "../assets/buffet.jpg";
+import me from "../assets/me.jpg";
 
 class Contact extends Component {
   render() {
@@ -8,9 +8,9 @@ class Contact extends Component {
       <div className="contact-body">
         <Grid className="contact-grid">
           <Cell col={6} className="contact-left-col">
-            <h2>Saba Jun</h2>
+            <h2>Saba Fathi</h2>
             <img
-              src={buffet}
+              src={me}
               alt="avatar"
               style={{
                 height: "280px",
@@ -27,9 +27,8 @@ class Contact extends Component {
                 lineHeight: "2em",
               }}
             >
-              If you would like to message me, I am available 18/7 through these
-              platforms, do not send spam or I will retaliate. May your road
-              lead to warm sands.
+              If you would like to message me, I am available through these
+              platforms.
             </p>
           </Cell>
           <Cell col={6} className="contact-right-col">

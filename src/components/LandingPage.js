@@ -45,7 +45,7 @@ class LandingPage extends Component {
 
               <div className="social-links">
                 <a
-                  href="https://www.linkedin.com/in/saba-fathi-7300ab1b0/"
+                  href="https://www.linkedin.com/in/saba-fathi2001/"
                   rel="noopener noreferrer"
                   target="_blank"
                 >
